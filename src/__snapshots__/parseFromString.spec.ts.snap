@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseFromString parses mac tree output 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "text": "path/to/folder/",
+      },
+    ],
+    "level": 0,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "a-first.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "b-second.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "subfolder",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "readme.html",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "code.cpp",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "sub",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "file.html",
+      },
+    ],
+    "level": 3,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "code.h",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "z-last-file.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+]
+`;
+
+exports[`parseFromString parses mac tree output 2`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "text": "path/to/folder/",
+      },
+    ],
+    "level": 0,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "subfolder",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "\`-- sub",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "\`-- file.html",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+]
+`;
+
+exports[`parseFromString parses unix tree output 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "text": "path/to/folder/",
+      },
+    ],
+    "level": 0,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "a-first.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "b-second.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "subfolder",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "readme.html",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "code.cpp",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "sub",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "file.html",
+      },
+    ],
+    "level": 3,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "code.h",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "z-last-file.html",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+]
+`;
+
+exports[`parseFromString parses unix tree output 2`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "text": "path/to/folder/",
+      },
+    ],
+    "level": 0,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "subfolder",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "└── sub",
+      },
+    ],
+    "level": 1,
+    "type": "line",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "text": "└── file.html",
+      },
+    ],
+    "level": 2,
+    "type": "line",
+  },
+]
+`;
